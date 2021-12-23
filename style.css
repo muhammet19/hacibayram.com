@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 2rem;
+}
+.banner{
+text-align: center;
+margin-top: 60px;
+
+}
+.banner img{
+    box-shadow:0 0 20px 0 rgb(82, 81, 81);
+    
+}
+body{
+    background-color: rgb(227, 233, 231);
+}
+.banner h1{
+    font-size: 22px;
+    padding-top: 15px;
+    max-width: 750px;
+    margin:20px auto 0 auto;
+    font-weight: 550;
+    text-align:center; 
+
+}
+.websitename{
+    margin: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px;
+    }
+
+.websitename a {
+    color: rgb(245, 239, 239);
+    font-style: italic;
+}
+
+.mainmenu{
+    display: flex;
+    align-self: center;
+    margin-right: 55px;  
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(12, 87, 148);
+    
+    
+}
+.mainmenu li a{
+    padding: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.mainmenu li  :hover{
+    color: rgb(199, 187, 23);
+    transition: 0.4s;
+
+}
+.bilgilerbölümü{
+    display: flex;
+    margin-left: 90px;
+    justify-content: center;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+.bilgi{
+    max-width: 500px;    
+}
+.bilgi p{
+    margin-top:10px ;
+}
+.bilgi h1{
+  margin-top:10px ;
+  font-weight: 540;
+}
+.Gallery img{
+padding: 20px;
+width: 230px;
+height: 180px;
+}
+.Gallery{
+    margin: 40px 50px;
+}
+.Gallery a :hover{
+transform: scale(1.2);
+transition: 0.5s;;
+}
+.Başlık{
+margin-top: 25px;
+text-align: center;
+font-size: 18px;
+font-weight: lighter;
+}
+.Başlık h1{
+    font-family: sans-serif;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+    color:rgb(65, 38, 38);
+}
+footer a{
+    color: rgb(65, 38, 38);
+}
+.yöresel h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.Videolar h1{
+    font-family: sans-serif;
+}
+
+
+.kelimeler{
+margin-top: 60px;
+}
+.kelimeler h2{
+    font-weight: lighter;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 52rem;
+}
+
+.iframe{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+
+.iframe iframe{
+padding: 40px;
+}
+.Videolar{
+margin-top: 25px;
+text-align: center;
+font-size: 18px;
+font-weight: lighter;
+}
+
+.Referans h1{
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}
+@media screen and (max-width:700px){
+    .websitename{
+        font-size: 13px;
+    }
+    .mainmenu li a{
+        font-size: 15px;
+    }
+    .bilgilerbölümü{
+        display:flex;
+        flex-direction: column;
+    }
+    .banner img{
+        width:600px;
+    }
+    .kelimeler h2{
+       margin: 0;
+       margin-left:35px;
+       
+    }
+
+}
+
+  
